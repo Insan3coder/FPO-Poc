@@ -1,0 +1,24 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode", // Use prettier as default formatter
+	"editor.tabSize": 2,
+	"prettier.tabWidth": 2,
+	"editor.formatOnSave": true,
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.bracketSameLine": true,
+	"prettier.proseWrap": "always",
+	"prettier.arrowParens": "avoid",
+	"files.trimTrailingWhitespace": true, // remove trailing white spaces from all lines
+	"files.trimFinalNewlines": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

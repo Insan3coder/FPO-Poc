@@ -1,0 +1,21 @@
+.ProductsWrapper {
+	& .ProductsGrid {
+		padding: 30px 0;
+		& .Card {
+			margin-bottom: 30px;
+			transition: 0.3s;
+			border: none;
+			box-shadow: 0 8px 40px -12px rgba(0, 0, 0, 0.3);
+			&:hover {
+				box-shadow: 0 16px 70px -12.125px rgba(0, 0, 0, 0.3);
+			}
+			& .CardImage {
+				// border: 1px solid red;
+				max-height: 400px;
+				min-height: 400px;
+				overflow: hidden;
+				cursor: pointer;
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+.NavBarWrapper {
+	margin: 1px solid red;
+	& .MenuItem {
+		margin-right: 20px;
+	}
+}

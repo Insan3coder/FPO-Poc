@@ -1,0 +1,29 @@
+.ContactUsWrapper {
+	& .ContactCards {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		& .card {
+			background-color: #eee;
+			padding: 20px 0;
+			& .title {
+				// border: 1px solid red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 24px;
+				gap: 10px;
+			}
+			& .disc {
+				margin-top: 20px;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				& p {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+}

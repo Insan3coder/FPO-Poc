@@ -1,0 +1,10 @@
+.HeaderWrapper {
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 100px;
+	& img {
+		height: 100px;
+		width: 100px;
+	}
+}
