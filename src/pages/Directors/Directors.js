@@ -13,7 +13,7 @@ const Directors = props => {
 			<Row className='DirectorsGrid'>
 				{DIRECTORS.map((image, imageIndex) => {
 					return (
-						<Col xs={6} md={4} key={`image-${imageIndex}`}>
+						<Col xs={12} sm={12} md={6} lg={4} key={`image-${imageIndex}`}>
 							<Card className='Card'>
 								<Card.Img
 									src={image.img_url}

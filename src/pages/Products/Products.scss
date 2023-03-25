@@ -15,7 +15,14 @@
 				min-height: 400px;
 				overflow: hidden;
 				cursor: pointer;
+				@media (max-width: 700px) {
+					max-height: 300px;
+					min-height: 300px;
+				}
 			}
 		}
+	}
+	@media (max-width: 700px) {
+		padding: 20px;
 	}
 }

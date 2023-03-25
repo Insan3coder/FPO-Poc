@@ -6,6 +6,9 @@
 		& .card {
 			background-color: #eee;
 			padding: 20px 0;
+			@media (max-width: 700px) {
+				padding: 10px;
+			}
 			& .title {
 				// border: 1px solid red;
 				display: flex;
@@ -25,5 +28,8 @@
 				}
 			}
 		}
+	}
+	@media (max-width: 700px) {
+		padding: 20px;
 	}
 }

@@ -1,5 +1,11 @@
 .NavBarWrapper {
 	margin: 1px solid red;
+	& .Brand {
+		& img {
+			height: 40px;
+			width: 40px;
+		}
+	}
 	& .MenuItem {
 		margin-right: 20px;
 	}

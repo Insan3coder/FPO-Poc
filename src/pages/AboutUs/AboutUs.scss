@@ -4,7 +4,13 @@
 		& p {
 			text-align: left;
 			font-size: 24px;
+			@media (max-width: 700px) {
+				font-size: 16px;
+			}
 		}
+	}
+	@media (max-width: 700px) {
+		padding: 20px;
 	}
 	& .CompanyDetails {
 	}
